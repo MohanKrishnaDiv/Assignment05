@@ -1,0 +1,37 @@
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    background-color: beige;
+    .footer-copyrights{
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 25vh;
+    }
+    .footer-privacyAndcontact{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .languageAndprivacy{
+            display: flex;
+            justify-content: space-between;
+            width: 30vw;
+        }
+        .icons{
+            display: flex;
+            justify-content: space-around;
+            width: 30vw;
+        }
+    }
+
+    
+
+}
+.image{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}

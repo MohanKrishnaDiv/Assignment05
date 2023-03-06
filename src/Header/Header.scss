@@ -1,0 +1,38 @@
+.head-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    .head-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        .head-left-menu,.head-right-menu{
+            display: flex;
+            list-style-type: none;
+            li{
+                margin: 5px;
+                padding: 3px;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            li:hover{
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+    .head-options img{
+        height: 24px;
+        width: 24px;
+        margin: 5px;
+        cursor: pointer;
+    }
+}
+
+
+
+

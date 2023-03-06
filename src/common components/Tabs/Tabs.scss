@@ -1,0 +1,15 @@
+.tabs-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.active-tabTitle{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    font-weight: 500;
+}
+.tabTitle{
+    margin: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
